@@ -22,6 +22,9 @@ public class User {
 
     Map<String, Integer> gamers = new HashMap<>();
 
+    /**
+     * Метод, заполняющий Map - реализация
+     */
     public void fillMap() {
         System.out.println("Пожалуйста введите количество игроков:");
         Scanner scanner = new Scanner(System.in);
@@ -35,7 +38,9 @@ public class User {
             i++;
         }
     }
-
+    /**
+     * Метод, показывающий очки игрока - реализация
+     */
     public void showPoints() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Пожалуйста введите ник игрока чтобы узнать количество его очков: ");

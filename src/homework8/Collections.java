@@ -61,10 +61,14 @@ public class Collections {
         MillionElements.randomLinked(linkedList, 10000000);
 
         User gamer = new User();
-
+        /**
+         * Метод, заполняющий Map данными - проверка
+         */
         gamer.fillMap();
         System.out.println(gamer.gamers);
-
+        /**
+         * Метод, показывающий очки игрока - проверка
+         */
         gamer.showPoints();
     }
 }
