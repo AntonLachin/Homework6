@@ -12,9 +12,9 @@ public class MillionElements {
         long time = System.currentTimeMillis();
         while (i < j) {
             i++;
-            arrayList.add(rd.nextInt());
+            arrayList.add(rd.nextInt(1000));
         }
-        //       System.out.println(list);
+        //       System.out.println(arrayList);
         System.out.println(System.currentTimeMillis() - time + " ms");
     }
 
@@ -25,9 +25,9 @@ public class MillionElements {
         long time = System.currentTimeMillis();
         while (i < j) {
             i++;
-            linkedList.add(rd.nextInt());
+            linkedList.add(rd.nextInt(1000));
         }
-        //      System.out.println(list);
+//              System.out.println(linkedList);
         System.out.println(System.currentTimeMillis() - time + " ms");
     }
 

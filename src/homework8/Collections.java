@@ -8,26 +8,26 @@ public class Collections {
          * Метод, удаляющий дубликаты - проверка
          */
         List<String> list = new ArrayList<>();
-        list.add("Somebody");
-        list.add("told");
-        list.add("me");
-        list.add("told");
-        list.add("that");
-        list.add("told");
-        list.add("you");
-        list.add("had");
-        list.add("told");
-        list.add("a boyfriend");
-        list.add("a boyfriend");
-        list.add("a boyfriend");
-        list.add("a boyfriend");
-        list.add("told");
-        list.add("told");
-        list.add("who looks");
-        list.add("a boyfriend");
-        list.add("a boyfriend");
-        list.add("like a");
-        list.add("a girlfriend...");
+        list.add("Somebody ");
+        list.add("told ");
+        list.add("me ");
+        list.add("told ");
+        list.add("that ");
+        list.add("told ");
+        list.add("you ");
+        list.add("had ");
+        list.add("told ");
+        list.add("a boyfriend ");
+        list.add("a boyfriend ");
+        list.add("a boyfriend ");
+        list.add("a boyfriend ");
+        list.add("told ");
+        list.add("told ");
+        list.add("who looks ");
+        list.add("a boyfriend ");
+        list.add("a boyfriend ");
+        list.add("like a ");
+        list.add("girlfriend...");
 
         NoDoubles.removeDoubles(list);
         /**
