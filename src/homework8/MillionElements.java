@@ -14,8 +14,8 @@ public class MillionElements {
             i++;
             arrayList.add(rd.nextInt(1000));
         }
-        //       System.out.println(arrayList);
-        System.out.println(System.currentTimeMillis() - time + " ms");
+//               System.out.println(arrayList);
+        System.out.println("Array was filled for "+(System.currentTimeMillis() - time + " ms"));
     }
 
     public static void fillLinked(Integer j) {
@@ -28,7 +28,7 @@ public class MillionElements {
             linkedList.add(rd.nextInt(1000));
         }
 //              System.out.println(linkedList);
-        System.out.println(System.currentTimeMillis() - time + " ms");
+        System.out.println("Linked was filled for "+(System.currentTimeMillis() - time + " ms"));
     }
 
     public static void randomArray(ArrayList arrayList, Integer j) {
@@ -39,7 +39,7 @@ public class MillionElements {
             i++;
             arrayList.get(rd.nextInt(arrayList.size()));
         }
-        System.out.println(System.currentTimeMillis() - time + " ms");
+        System.out.println("Elements for Array were chosen for "+(System.currentTimeMillis() - time + " ms"));
     }
 
     public static void randomLinked(LinkedList linkedList, Integer j) {
@@ -50,6 +50,6 @@ public class MillionElements {
             i++;
             linkedList.get(rd.nextInt(linkedList.size()));
         }
-        System.out.println(System.currentTimeMillis() - time + " ms");
+        System.out.println("Elements for Linked were chosen for "+(System.currentTimeMillis() - time + " ms"));
     }
 }

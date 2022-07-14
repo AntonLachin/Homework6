@@ -56,9 +56,9 @@ public class Collections {
 
         MillionElements.fillLinked(10000000);
 
-        MillionElements.randomArray(arrayList, 10000000);
+        MillionElements.randomArray(arrayList, 20000000);
 
-        MillionElements.randomLinked(linkedList, 10000000);
+        MillionElements.randomLinked(linkedList, 20000000);
 
         User gamer = new User();
         /**
